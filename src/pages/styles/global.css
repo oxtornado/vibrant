@@ -1,7 +1,265 @@
 @import "tailwindcss";
 
+/* Regular Fixture fonts */
+@font-face {
+    font-family: 'Fixture';
+    src: url('../utils/font/Fixture/Fixture-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture';
+    src: url('../utils/font/Fixture/Fixture-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture';
+    src: url('../utils/font/Fixture/Fixture-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture';
+    src: url('../utils/font/Fixture/Fixture-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture';
+    src: url('../utils/font/Fixture/Fixture-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture';
+    src: url('../utils/font/Fixture/Fixture-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture';
+    src: url('../utils/font/Fixture/Fixture-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture';
+    src: url('../utils/font/Fixture/Fixture-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture';
+    src: url('../utils/font/Fixture/Fixture-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Italic Fixture fonts */
+@font-face {
+    font-family: 'Fixture';
+    src: url('../utils/font/Fixture/FixtureItalic-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fixture';
+    src: url('../utils/font/Fixture/FixtureItalic-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fixture';
+    src: url('../utils/font/Fixture/FixtureItalic-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fixture';
+    src: url('../utils/font/Fixture/FixtureItalic-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fixture';
+    src: url('../utils/font/Fixture/FixtureItalic-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fixture';
+    src: url('../utils/font/Fixture/FixtureItalic-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fixture';
+    src: url('../utils/font/Fixture/FixtureItalic-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fixture';
+    src: url('../utils/font/Fixture/FixtureItalic-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fixture';
+    src: url('../utils/font/Fixture/FixtureItalic-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* Condensed Fixture fonts */
+@font-face {
+    font-family: 'Fixture Condensed';
+    src: url('../utils/font/Fixture/Fixture-CondensedThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture Condensed';
+    src: url('../utils/font/Fixture/Fixture-CondensedExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture Condensed';
+    src: url('../utils/font/Fixture/Fixture-CondensedLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture Condensed';
+    src: url('../utils/font/Fixture/Fixture-CondensedRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture Condensed';
+    src: url('../utils/font/Fixture/Fixture-CondensedMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture Condensed';
+    src: url('../utils/font/Fixture/Fixture-CondensedSemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture Condensed';
+    src: url('../utils/font/Fixture/Fixture-CondensedBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture Condensed';
+    src: url('../utils/font/Fixture/Fixture-CondensedExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture Condensed';
+    src: url('../utils/font/Fixture/Fixture-CondensedBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Expanded Fixture fonts */
+@font-face {
+    font-family: 'Fixture Expanded';
+    src: url('../utils/font/Fixture/Fixture-ExpandedThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture Expanded';
+    src: url('../utils/font/Fixture/Fixture-ExpandedExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture Expanded';
+    src: url('../utils/font/Fixture/Fixture-ExpandedLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture Expanded';
+    src: url('../utils/font/Fixture/Fixture-ExpandedRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture Expanded';
+    src: url('../utils/font/Fixture/Fixture-ExpandedMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture Expanded';
+    src: url('../utils/font/Fixture/Fixture-ExpandedSemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture Expanded';
+    src: url('../utils/font/Fixture/Fixture-ExpandedBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture Expanded';
+    src: url('../utils/font/Fixture/Fixture-ExpandedExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture Expanded';
+    src: url('../utils/font/Fixture/Fixture-ExpandedBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
 
 @theme {
     --color-background: #FBFBFB;
     --color-text: #0B1516;
+    --color-primary: #61abb1;
+    --color-secondary: #ab99cd;
+    --color-accent: #b684c2;
 }

@@ -1,19 +1,40 @@
 ---
-// Estructura de la página
+
 ---
 
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<link rel="stylesheet" href="src/pages/styles/global.css" />
-		<title>Astro</title>
+		<title>Vibrant - Your friendly guide to understanding the internet and your smartphone</title>
 	</head>
 	<body class="bg-background">
-		<section>
-			
+		<main class="static flex flex-col items-center justify-center h-screen w-full"> 
+			<div class="absolute bottom-0 left-4">
+				<h1 class="text-[28rem] font-black bg-gradient-to-r from-primary to-secondary inline-block text-transparent bg-clip-text">Vibrant</h1> 
+			</div>
+			<div class="absolute bottom-28">
+				<p class="text-3xl font-medium">Your friendly guide to understanding the internet and your smartphone. Start your digital journey with us today!</p>
+			</div>
+		</main>
+
+		<div class="absolute bottom-5 left-30">
+			<p class="text-xl font-normal">makes it simple for seniors to learn, explore, and connect—one tap at a time.</p> 
+		</div>
+		<div class="flex items-center bg-text w-5/6 h-0.5 mx-30 -mt-5"></div>
+		
+		<section class="grid place-content-center h-screen ml-96 pl-56 pr-20">
+			<div>
+				<h1 class="text-text text-8xl font-bold pl-60 pr-40">
+					Digital help with care
+				</h1>
+			</div>
+			<div class="pt-12">
+				<p class="text-text text-4xl pl-60 pr-40">Vibrant was created to help seniors feel confident and safe using modern technology.</p>
+			</div>
 		</section>
 	</body>
 </html>
