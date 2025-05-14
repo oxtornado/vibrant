@@ -6,7 +6,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="generator" content={Astro.generator} />
 		<link rel="stylesheet" href="src/pages/styles/global.css" />
 		<title>Vibrant - Your friendly guide to understanding the internet and your smartphone</title>
@@ -38,13 +38,83 @@
 		</section>
 
 		<figure class="grid grid-cols-3 gap-4 m-20">
-			<div class="rounded-xl col-span-3 row-span-1 bg-gradient-to-r from-text to-accent h-svh"></div>
-			<div class="rounded-xl col-span-1 bg-gradient-to-r from-text to-accent h-96"></div>
-			<div class="rounded-xl col-span-2 bg-gradient-to-r from-text to-accent h-96"></div> 
-			<div class="rounded-xl col-span-3 bg-gradient-to-r from-text to-accent h-[32rem]"></div>
-			<div class="rounded-xl col-span-1 bg-gradient-to-r from-text to-accent h-96"></div>
-			<div class="rounded-xl col-span-2 bg-gradient-to-r from-text to-accent h-96"></div> 
+			<div class="rounded-xl col-span-3 row-span-1 h-svh overflow-hidden">
+				<img src="https://images.unsplash.com/photo-1422015347944-9dd46d16bd0b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="seniors couple walking along a garden"
+				class="object-cover w-full h-full rounded-xl transition-transform duration-300 hover:scale-110" />
+			</div>
+			<div class="rounded-xl col-span-1 h-96 overflow-hidden">
+				<img src="https://images.unsplash.com/photo-1627752885954-e6956866dcbf?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="senior lady hands" 
+				class="object-cover w-full h-full rounded-xl transition-transform duration-300 hover:scale-110" />
+			</div>
+			<div class="rounded-xl col-span-2 bg-gradient-to-r from-text to-accent h-96 overflow-hidden">
+				<img src="https://images.unsplash.com/photo-1565096413625-af1d38174759?q=80&w=1475&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="senior lady hands" 
+				class="object-cover w-full h-full rounded-xl transition-transform duration-300 hover:scale-110" />			
+			</div> 
+			<div class="rounded-xl col-span-3 bg-gradient-to-r from-text to-accent h-[32rem] overflow-hidden">
+				<img src="https://images.unsplash.com/photo-1557964856-785bab2214d8?q=80&w=1488&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="senior lady hands" 
+				class="object-cover w-full h-full rounded-xl transition-transform duration-300 hover:scale-110" />			
+			</div>
+			<div class="rounded-xl col-span-1 bg-gradient-to-r from-text to-accent h-96 overflow-hidden">
+				<img src="https://images.unsplash.com/photo-1415226581130-91cb7f52f078?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="senior lady hands" 
+				class="object-cover w-full h-full rounded-xl transition-transform duration-300 hover:scale-110" />			
+			</div>
+			<div class="rounded-xl col-span-2 bg-gradient-to-r from-text to-accent h-96 overflow-hidden">
+				<img src="https://images.unsplash.com/photo-1526635090919-b5d79657c5a3?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="senior lady hands" 
+				class="object-cover w-full h-full rounded-xl transition-transform duration-300 hover:scale-110" />			
+			</div> 
 		</figure>
 
+		<footer class="flex flex-col items-center justify-center h-screen w-full bg-gradient-to-b from-background to-primary">
+			<div class="pb-20">	
+				<h1 class="text-text text-9xl font-bold">Want to join us?</h1>
+			</div>
+			<div class="w-full max-w-md bg-background p-8 rounded-xl">
+				<form action="" class="flex flex-col gap-4">
+					<div>
+						<label for="name" class="block text-lg font-medium text-text">Name</label>
+						<input type="text" id="name" name="name" class="w-full mt-1 p-2 border border-gray-300 rounded-md" placeholder="Enter your name" required />
+					</div>
+					<div>
+						<label for="email" class="block text-lg font-medium text-text">Email</label>
+						<input type="email" id="email" name="email" class="w-full mt-1 p-2 border border-gray-300 rounded-md" placeholder="Enter your email" required />
+					</div>
+					<div>
+						<label for="country" class="block text-lg font-medium text-text">Country</label>
+						<select id="country" name="country" class="w-full mt-1 p-2 border border-gray-300 rounded-md" required>
+							<option value="" disabled selected>Select your country</option>
+							<option value="us">United States</option>
+							<option value="ca">Canada</option>
+							<option value="uk">United Kingdom</option>
+							<option value="au">Australia</option>
+							<option value="in">India</option>
+							<option value="de">Germany</option>
+							<option value="fr">France</option>
+							<option value="jp">Japan</option>
+							<option value="cn">China</option>
+							<option value="br">Brazil</option>
+						</select>
+					</div>
+					<div>
+						<button type="submit" class="w-full py-2 px-4 bg-primary text-white font-medium rounded-md transition-all duration-300 hover:bg-secondary"> 
+							Submit
+						</button>
+					</div>
+				</form>
+			</div>
+
+			<div class="w-full flex justify-center pt-60 hover:cursor-crosshair">
+                <div class="w-full max-w-6xl flex justify-between px-4">
+                    <p class="font-bold text-white shadow-2xl">Vibrant</p>
+                    <div class="flex gap-6">
+                        <p class="font-bold text-white shadow-2xl">
+                            <a href="github.com/oxtornado/vibrant">GitHub</a>
+                        </p>    
+                        <p class="font-bold text-white shadow-2xl">
+                            <a href="#">Email</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+		</footer>
 	</body>
 </html>
