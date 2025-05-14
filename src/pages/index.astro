@@ -5,116 +5,59 @@
 <html lang="en" class="scroll-smooth">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="generator" content={Astro.generator} />
-		<link rel="stylesheet" href="src/pages/styles/global.css" />
 		<title>Vibrant - Your friendly guide to understanding the internet and your smartphone</title>
+		<link rel="stylesheet" href="src/pages/styles/global.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 	</head>
-	<body class="bg-background">
-		<main class="static flex flex-col items-center justify-center h-screen w-full"> 
-			<div class="absolute bottom-0 left-4">
-				<h1 class="text-[28rem] font-black bg-gradient-to-r from-primary to-secondary inline-block text-transparent bg-clip-text">Vibrant</h1> 
-			</div>
-			<div class="absolute bottom-28">
-				<p class="text-3xl font-medium">Your friendly guide to understanding the internet and your smartphone. Start your digital journey with us today!</p>
-			</div>
-		</main>
-
-		<div class="absolute bottom-5 left-30">
-			<p class="text-xl font-normal">makes it simple for seniors to learn, explore, and connect—one tap at a time.</p> 
-		</div>
-		<div class="flex items-center bg-linear-to-r from-text to-accent w-5/6 h-0.5 mx-30 -mt-5"></div>
+	<body>
+		<header class="m-4 flex flex-row justify-center gap-4">
+			<a class="w-40 p-2 text-center font-normal" href="#">+ Start</a>
+			<a class="w-40 p-2 text-center font-normal" href="#">Sponsors</a>
+			<div class="size-10 bg-[url(https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2pvYjcyNi0xMDEtcC5wbmc.png)] bg-contain bg-center bg-no-repeat"></div>
+			<a class="w-40 p-2 text-center font-normal" href="#">Join</a>
+		</header>
 		
-		<section class="grid place-content-center h-screen ml-96 pl-56 pr-20">
-			<div>
-				<h1 class="text-text text-8xl font-bold pl-60 pr-40">
-					Digital help with care
-				</h1>
-			</div>
-			<div class="pt-12">
-				<p class="text-text text-4xl pl-60 pr-40">Vibrant was created to help seniors feel confident and safe using modern technology.</p>
-			</div>
+		<main class="m-5 mt-60">
+			<h1 class="bg-gradient-to-t from-blue-800 to-white bg-clip-text text-9xl font-bold text-transparent lg:text-[10rem]">Vibrant</h1>
+			<p class="font-medium">Your friendly guide to understanding the internet and your smartphone.</p>
+			<p class="pt-10">Start your digital journey with us today!</p>
+			<div class="h-0.5 bg-gradient-to-r from-blue-800 to-white"></div>
+		</main>
+		
+		<section class="m-5 my-32 grid lg:mt-32 lg:mr-5 lg:place-content-end">
+			<h2 class="text-6xl font-bold">Digital help with care</h2>
+			<p class="my-5 lg:w-96">Vibrant connects seniors with today's tech, building confidence and safety for their digital adventures.</p>
 		</section>
-
-		<figure class="grid grid-cols-3 gap-4 m-20">
-			<div class="rounded-xl col-span-3 row-span-1 h-svh overflow-hidden">
-				<img src="https://images.unsplash.com/photo-1422015347944-9dd46d16bd0b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="seniors couple walking along a garden"
-				class="object-cover w-full h-full rounded-xl transition-transform duration-300 hover:scale-110" />
-			</div>
-			<div class="rounded-xl col-span-1 h-96 overflow-hidden">
-				<img src="https://images.unsplash.com/photo-1627752885954-e6956866dcbf?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="senior lady hands" 
-				class="object-cover w-full h-full rounded-xl transition-transform duration-300 hover:scale-110" />
-			</div>
-			<div class="rounded-xl col-span-2 bg-gradient-to-r from-text to-accent h-96 overflow-hidden">
-				<img src="https://images.unsplash.com/photo-1565096413625-af1d38174759?q=80&w=1475&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="senior lady hands" 
-				class="object-cover w-full h-full rounded-xl transition-transform duration-300 hover:scale-110" />			
-			</div> 
-			<div class="rounded-xl col-span-3 bg-gradient-to-r from-text to-accent h-[32rem] overflow-hidden">
-				<img src="https://images.unsplash.com/photo-1557964856-785bab2214d8?q=80&w=1488&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="senior lady hands" 
-				class="object-cover w-full h-full rounded-xl transition-transform duration-300 hover:scale-110" />			
-			</div>
-			<div class="rounded-xl col-span-1 bg-gradient-to-r from-text to-accent h-96 overflow-hidden">
-				<img src="https://images.unsplash.com/photo-1415226581130-91cb7f52f078?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="senior lady hands" 
-				class="object-cover w-full h-full rounded-xl transition-transform duration-300 hover:scale-110" />			
-			</div>
-			<div class="rounded-xl col-span-2 bg-gradient-to-r from-text to-accent h-96 overflow-hidden">
-				<img src="https://images.unsplash.com/photo-1526635090919-b5d79657c5a3?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="senior lady hands" 
-				class="object-cover w-full h-full rounded-xl transition-transform duration-300 hover:scale-110" />			
-			</div> 
-		</figure>
-
-		<footer class="flex flex-col items-center justify-center h-screen w-full bg-gradient-to-b from-background to-primary">
-			<div class="pb-20">	
-				<h1 class="text-text text-9xl font-bold">Want to join us?</h1>
-			</div>
-			<div class="w-full max-w-md bg-background p-8 rounded-xl">
-				<form action="" class="flex flex-col gap-4">
-					<div>
-						<label for="name" class="block text-lg font-medium text-text">Name</label>
-						<input type="text" id="name" name="name" class="w-full mt-1 p-2 border border-gray-300 rounded-md" placeholder="Enter your name" required />
-					</div>
-					<div>
-						<label for="email" class="block text-lg font-medium text-text">Email</label>
-						<input type="email" id="email" name="email" class="w-full mt-1 p-2 border border-gray-300 rounded-md" placeholder="Enter your email" required />
-					</div>
-					<div>
-						<label for="country" class="block text-lg font-medium text-text">Country</label>
-						<select id="country" name="country" class="w-full mt-1 p-2 border border-gray-300 rounded-md" required>
-							<option value="" disabled selected>Select your country</option>
-							<option value="us">United States</option>
-							<option value="ca">Canada</option>
-							<option value="uk">United Kingdom</option>
-							<option value="au">Australia</option>
-							<option value="in">India</option>
-							<option value="de">Germany</option>
-							<option value="fr">France</option>
-							<option value="jp">Japan</option>
-							<option value="cn">China</option>
-							<option value="br">Brazil</option>
-						</select>
-					</div>
-					<div>
-						<button type="submit" class="w-full py-2 px-4 bg-primary text-white font-medium rounded-md transition-all duration-300 hover:bg-secondary"> 
-							Submit
-						</button>
-					</div>
+		
+		<section class="m-5 grid grid-cols-5 gap-4">
+			<div class="col-span-5 h-[40rem] rounded-2xl bg-blue-400 p-2"></div>
+			<div class="col-span-2 h-80 rounded-2xl bg-blue-100 p-2"></div>
+			<div class="col-span-3 h-80 rounded-2xl bg-blue-300 p-2"></div>
+			<div class="col-span-5 h-40 rounded-2xl bg-blue-800 p-2"></div>
+		</section>
+		
+		<footer class="mt-44 flex h-auto flex-col bg-gray-50">
+			<section class="m-20 flex h-auto flex-col rounded-2xl bg-blue-300 xl:mx-96">
+				<h3 class="m-5 text-5xl font-bold">Link up with us and help grandparents stop asking why their phone 'ate' their photos.</h3>
+				<form action="#" class="m-5 flex flex-col">
+					<label class="pb-2 text-lg font-medium" for="name">Name</label>
+					<input class="h-10 rounded-2xl bg-gray-50" type="text" name="name" id="name" />
+					<label class="pt-5 pb-2 text-lg font-medium" for="name">Email</label>
+					<input class="mb-5 h-10 rounded-2xl bg-gray-50" type="text" name="name" id="name" />
+					<button type="submit" class="h-10 overflow-hidden rounded-2xl bg-blue-50 text-base">Submit</button>
 				</form>
+			</section>
+			<div class="m-5 h-0.5 bg-gray-200"></div>
+			<div class="m-5 grid grid-cols-4 place-items-center">
+				<div class="size-10 bg-[url(https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2pvYjcyNi0xMDEtcC5wbmc.png)] bg-contain bg-center bg-no-repeat"></div>
+				<a class="hover:underline" href="github.com/oxtornado/vibrant">Github</a>
+				<a class="hover:underline" href="">Docs</a>
+				<a class="hover:underline" href="">Discord</a>
 			</div>
-
-			<div class="w-full flex justify-center pt-60 hover:cursor-crosshair">
-                <div class="w-full max-w-6xl flex justify-between px-4">
-                    <p class="font-bold text-white shadow-2xl">Vibrant</p>
-                    <div class="flex gap-6">
-                        <p class="font-bold text-white shadow-2xl">
-                            <a href="github.com/oxtornado/vibrant">GitHub</a>
-                        </p>    
-                        <p class="font-bold text-white shadow-2xl">
-                            <a href="#">Email</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
 		</footer>
 	</body>
 </html>
