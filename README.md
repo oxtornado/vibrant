@@ -47,13 +47,13 @@ Any static assets, like images, can be placed in the `public/` directory.
 
 ## 💯 Evaluation Criteria
 
-| Criterion | Points |
-|-----------|---------|
-| Bootstrap Implementation | 20 pts |
-| Grid System Usage | 20 pts |
-| Component Integration | 20 pts |
-| Responsive Design | 20 pts |
-| Code Quality & Creativity | 20 pts |
+| Criterion | Points | Check |
+|-----------|--------|-------|
+| Bootstrap Implementation | 20 pts | ✅ |
+| Grid System Usage | 20 pts | ✅ |
+| Component Integration | 20 pts | ✅ |
+| Responsive Design | 20 pts | ✅ |
+| Code Quality & Creativity | 20 pts | ✅ |
 
 ## 🧞 Commands
 
