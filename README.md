@@ -1,8 +1,30 @@
-# Astro Starter Kit: Minimal
+# 📱 Vibrant - Empowering Seniors Through Technology
 
-```sh
-npm create astro@latest -- --template minimal
-```
+A landing page designed to help seniors understand and feel comfortable with their smartphones through intuitive teaching methods and supportive guidance.
+
+## 🎯 Project Overview
+
+This landing page aims to bridge the digital divide by:
+- Providing clear, accessible guidance for seniors using smartphones
+- Reducing dependency on family members for basic phone operations
+- Building confidence in digital technology usage
+- Creating an inclusive digital experience
+
+## 📋 Project Requirements
+
+### Core Features
+- Responsive navbar with logo and navigation links
+- Hero section with engaging visuals and clear value proposition
+- Three feature cards highlighting key learning modules
+- User-friendly contact form
+- Informative footer
+- Mobile-first responsive design
+- Custom color palette focused on readability and comfort
+
+### Optional Enhancements
+- Interactive elements (carousel, accordion)
+- Bootstrap animations and transitions
+- Accessibility features for senior users
 
 ## 🚀 Project Structure
 
@@ -22,6 +44,16 @@ Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page
 There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
 Any static assets, like images, can be placed in the `public/` directory.
+
+## 💯 Evaluation Criteria
+
+| Criterion | Points |
+|-----------|---------|
+| Bootstrap Implementation | 20 pts |
+| Grid System Usage | 20 pts |
+| Component Integration | 20 pts |
+| Responsive Design | 20 pts |
+| Code Quality & Creativity | 20 pts |
 
 ## 🧞 Commands
 
